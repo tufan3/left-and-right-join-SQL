@@ -1,0 +1,20 @@
+.grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        background-color: #2196F3;
+        padding: 10px;
+        align-items: center;
+}
+
+.item {
+        padding: 20px;
+        margin: 20px;
+        transition: transform 1s ease-in-out;
+}
+
+.item:hover {
+        /* width: 300px; */
+        background-color: rosybrown;
+        transform: scale(1.2);
+}
