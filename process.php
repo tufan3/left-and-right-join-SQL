@@ -28,7 +28,7 @@ if (mysqli_num_rows($results) > 0) {
                 <td>" . $row['student_id'] . "</td>
                 <td>" . $row['first_name'] . "</td>
                 <td>" . $row['last_name'] . "</td>
-                <td>" . $row['fother_name'] . "</td>
+                <td>" . $row['father_name'] . "</td>
                 <td>" . $row['mother_name'] . "</td>
                 <td>" . $row['address'] . "</td>
                 <td>" . $row['phone'] . "</td>
